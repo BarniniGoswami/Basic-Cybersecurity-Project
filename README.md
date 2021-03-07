@@ -14,3 +14,4 @@ Library used for encryption/decryption and hash mechanism - cryptography
 
 Library used for database (Oracle 11g) connection - cx_Oracle
 
+NOTE :- Do not forget to add a "files" folder where the public and private key of all the users will be stored.
