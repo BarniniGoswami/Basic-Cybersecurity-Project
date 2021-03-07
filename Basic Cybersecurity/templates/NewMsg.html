@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Compose message here</title>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<div class="cover">
+<div class="overlay">
+<div class="form">
+  <form action="new" method="post">
+      Enter your name: <input type="text" name="uname"><br>
+      Enter Reciever's address: <input type="text" name="recipient"><br>
+      Enter the message : <input type="text" name="message"><br>
+      <input class="submit-btn" type="submit" value="Send">
+  </form>
+</div>
+</div>
+</div>
+</body>
+</html>

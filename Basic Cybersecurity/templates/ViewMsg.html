@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>View Your msgs here</title>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<div class="cover">
+<div class="overlay">
+<div class="form">
+<form action="view" method="post">
+    Confirm your name<input type="text" name="name">
+    <br>
+    Confirm password <input type="password" name="pass">
+    <input class="submit-btn" type="submit" value="Confirm">
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

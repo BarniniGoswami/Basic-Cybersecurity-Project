@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register yourself here</title>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<div class="cover">
+<div class="overlay">
+<h1 class="title" >Register as new user </h1>
+<div class="form">
+<form action="register" method="post">
+    Enter username<input type="text" name="name">
+    <br>
+    Enter new password <input type="password" name="pass">
+    <br>
+    <input class="submit-btn" type="submit" value="Register">
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

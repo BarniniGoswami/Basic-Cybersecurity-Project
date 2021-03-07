@@ -1,0 +1,28 @@
+<!--<%&#45;&#45;-->
+<!--  Created by IntelliJ IDEA.-->
+<!--  User: BIBHABASU-->
+<!--  Date: 14/2/2021-->
+<!--  Time: 5:42 PM-->
+<!--  To change this template use File | Settings | File Templates.-->
+<!--&#45;&#45;%>-->
+<!--<%@ page contentType="text/html;charset=UTF-8" language="java" %>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Messaging Web Application</title>
+<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+</head>
+
+<body ><div class="cover">
+<div class="overlay"><h1 class="title">Secure Messaging Web Application</h1><div class="loginform"><form action="login" method="post">
+  Enter username<input type="text" name="uname">
+  <br>Enter password<input type="password" name="pass">
+ <br><input class="submit-btn" type="submit" value="Login">
+</form>OR <br><a class="register-btn" href="{{url_for('registration')}}">Register as new user</a>
+
+
+
+</div>
+</div></div></body>
+</html>

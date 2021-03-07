@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+</head>
+<body>
+<div class="cover">
+<div class="overlay">
+<h1 class="title"> Welcome to your dashboard</h1>
+<div class="form">
+<h3>Choose required Option!</h3>
+<button class="submit-btn" name="view"><a href="{{url_for('ViewMsg')}}">See your messages</a></button>
+<button class="submit-btn" name="compose"><a href="{{url_for('NewMsg')}}">Send new message</a></button>
+</div>
+</div>
+</div>
+</body>
+</html>
